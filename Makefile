@@ -1,5 +1,5 @@
-IMAGE_NAME := waja/jingo
-JONGO_EXPORT_PATH := $$(pwd)/../docker-jingo
+IMAGE_NAME := y0no/jingo
+JONGO_EXPORT_PATH := /var/docker/wiki
 
 build:
 	docker build --rm -t $(IMAGE_NAME) .
