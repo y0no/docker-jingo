@@ -1,3 +1,5 @@
+![](https://travis-ci.org/y0no/docker-jingo.svg?branch=master)
+
 __IMPORTANT__: This image is not currently based on the official [github repo](https://github.com/claudioc/jingo) because of the poor encryption system for local 
 users (unsalted sha1). To solve this issue, I have developped an hardened version that uses salted sha256 for users ([repo](https://github.com/y0no/jingo))
 
